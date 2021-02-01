@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+	id="WebApp_ID" version="3.1">
+	<display-name>Mini</display-name>
+	<servlet>
+		<servlet-name>FrontController</servlet-name> <!-- 로 가서 -->
+		<servlet-class>co.mini.board.common.FrontController</servlet-class> <!-- 를 실행 -->
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>FrontController</servlet-name> <!-- 로 가기 -->
+		<url-pattern>*.do</url-pattern> <!-- .do 로 끝나면 -->
+	</servlet-mapping>
+
+	<welcome-file-list>
+		<welcome-file>index.jsp</welcome-file>
+	</welcome-file-list>
+</web-app>

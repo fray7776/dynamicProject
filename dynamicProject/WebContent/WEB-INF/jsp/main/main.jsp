@@ -13,7 +13,7 @@
 
   <!-- Image header -->
   <header class="w3-display-container w3-wide" id="home" >
-    <img class="w3-image" src="/20210129/img/1-2.jpg" width="1060" height="1060" >
+    <img class="w3-image" src="/20210129-1/img/1-2.jpg" width="1060" height="1060" >
     <div class="w3-display-left w3-padding-large">
       <h1 class="w3-text-white">Sophy's</h1>
       <h1 class="w3-jumbo w3-text-white w3-hide-small"><b>B O A R D</b></h1>
